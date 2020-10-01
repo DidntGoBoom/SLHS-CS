@@ -1,4 +1,55 @@
 body {
-    background-color: green;
-    color: gainsboro;
+    background-color: #a10031;
+    color: rgb(23,60,146);
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 0 0 rgb(253, 246, 227), 0 -1px 0  rgb(253, 246, 227),
+            0 1px 0  rgb(253, 246, 227), -1px 0 0  rgb(253, 246, 227);
+}
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+table, th, td {
+    box-shadow: 2px 2px;
+    foo: rgba(255, 255, 255, 0.3), inset 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+th, td {
+    padding: 5px 5% 5px 5%;
+}
+table {
+    background-color: rgb(253, 246, 227);
+    color: #a10031;
+}
+th {
+    font-style: strong;
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+}
+#firstCol {
+    width: 40%;
+}
+#secondCol {
+    width: 60%;
+}
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered70 {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.mascot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
