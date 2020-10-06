@@ -1,6 +1,17 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <title>
             Once a Pirate ...
         </title>
@@ -9,47 +20,83 @@
         <link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.1' type='text/css' media='all' />
     </head>
     <body>
-        <h1>
-            Welcome to the San Leandro High School Computer Science Website!
-        </h1>
-        <img class=mascot src="images/mascot-1.jpeg"/>
-        <h2 class=mascot><i>Our Mascot</i></h2>
-        <div class=centered70>
-            <table>
-                <thead>
-                    <th id=firstCol>
-                        Class
-                    </th>
-                    <th id=secondCol>
-                        Subject
-                    </th>
-                </thead>
-                <tr>
-                    <td>
-                        Web Development
-                    </td>
-                    <td>
-                        HTML, CSS, JavaScript
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        AP Computer Science Principles
-                    </td>
-                    <td>
-                        JavaScript, mobile programming, cryptography
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        AP Computer Science A
-                    </td>
-                    <td>
-                        Java
-                    </td>
-                </tr>
-            </table>
-    </div>
-        
+        <!-- Navbar -->
+        <div id="navbar"> 
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand href="#">CS@SLHS</a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-default">
+                        <li class="active"><a href="../index.html">CS Home</a></li>
+                        <li><a href="WebDev/webdev.html">Web Development</a></li>
+                        <li><a href="APCSP/apcsp.html">AP CS Principles</a></li>
+                        <li><a href="APCSA/apcsa.html">AP CS A</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Content -->
+        <div class="container">
+            <div class="row">
+                <h1>
+                    Welcome to the San Leandro High School Computer Science Website!
+                </h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <img class=mascot src="images/mascot-1.jpeg"/>
+                <h2 class=mascot><i>Our Mascot</i></h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8">
+                    <table width="100%">
+                        <thead>
+                            <th id=firstCol>
+                                Class
+                            </th>
+                            <th id=secondCol>
+                                Subject
+                            </th>
+                        </thead>
+                        <tr>
+                            <td>
+                                <a href=WebDev/webdev.html>Web Development</a>
+                            </td>
+                            <td>
+                                HTML, CSS, JavaScript
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href=APCSP/apcsp.html>AP Computer Science Principles</a>
+                            </td>
+                            <td>
+                                JavaScript, mobile programming, cryptography
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href=APCSA/apcsa.html>AP Computer Science A</a>
+                            </td>
+                            <td>
+                                Java
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+        </div>
     </body>
 </html>
