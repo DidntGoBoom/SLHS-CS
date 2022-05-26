@@ -37,7 +37,7 @@ function buildNavBar()
 
     for( var i=0; i<refs.length; i++ )
     {
-        $listthing = $("<li>" , {"class": "nav-item pagenav ms-5"});
+        $listthing = $("<li>" , {"class": "nav-item pagenav ms-5", "id": labels[i].replaceAll(" ", "") });
         $bizlink = "<a href='" + refs[i] + "'>" + labels[i] + "</a>";
 
         $menuList.append($listthing);
